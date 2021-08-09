@@ -1,0 +1,62 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+
+.banner_answer{
+  background: rgba(233, 130, 130, 0.1);
+  width: 75%;
+  padding: 10px;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+.banner_ask{
+  background: rgba(58, 165, 236, 0.1);
+  width: 75%;
+  padding: 10px;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+a {
+  color: rgb(9, 7, 131);
+  text-decoration: none;
+  font-size: 20px;
+  &:hover {
+    color: rgb(207, 106, 11);
+  }
+}
+
+#button {
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  color: white;
+  font-size: 15px;
+  padding: 4px;
+  height: 33px;
+}
+
+#form_box {
+  height: 27px;
+  width: 25%;
+}
+
+.form_ask {
+  display: flex;
+}
+.container {
+  padding: 30px;
+  height: auto;
+  width: 80%;
+  margin: 0 auto;
+}
